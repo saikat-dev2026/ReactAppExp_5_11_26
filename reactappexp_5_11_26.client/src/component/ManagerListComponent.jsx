@@ -78,7 +78,7 @@ function ManagerListComponent({ onDepartmentChange}) {
 
           <select value={selectedManager} onChange={handleChange}>
 
-              <option value="0">
+              <option value="">
                   -- Select Manager --
               </option>
 
