@@ -1,0 +1,39 @@
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr;
+    height: 100vh;
+}
+
+.header {
+    grid-column: 1 / span 2;
+    background: #0f172a;
+    color: white;
+    padding: 15px;
+}
+
+.sidebar {
+    background: #1e293b;
+    display: flex;
+    flex-direction: column;
+}
+
+    .sidebar a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        .sidebar a.active {
+            background: #2563eb;
+        }
+
+.content {
+    padding: 20px;
+    background: #f1f5f9;
+}
+
+.input-box {
+    width: 100%;
+    box-sizing: border-box;
+}
